@@ -10,7 +10,8 @@ class BubbleSort
       end
       break if !sorted
     end
-    p letters
+    letters
+    #when running this file, put p in front of letters in above line so it prints result
   end
 end
 

@@ -47,5 +47,4 @@ class BubbleSortTest < Minitest::Test
     b = BubbleSort.new
     assert_equal [2, 7, "m", "z"], b.sort(["z", 7, "m", 2])
   end
-
 end

@@ -13,10 +13,10 @@ class InsertionSort
           end
         end
       end
-      p sorted
+      sorted
+      #when running this file, put p in front of sorted in above line so it prints result
   end
 end
-
 
 i = InsertionSort.new
 i.sort(["d", "c", "e", "b", "a"])

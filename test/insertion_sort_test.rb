@@ -37,5 +37,4 @@ class InsertionSortTest < Minitest::Test
     b = InsertionSort.new
     assert_equal ["car", "horse", "phone", "v"], b.sort(["v", "horse", "car", "phone"])
   end
-
 end
